@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+background: #f0f2f4;
+}
+.top-header-ul{
+list-style: none;
+margin: 0;
+display: flex;
+justify-content: space-between;
+}
+.top-header ul li{
+color: #424242;
+margin-left: 30px;
+}
+.top-header ul li i{
+margin-right: 5px;
+}
+.top-header ul li:last-child{
+    margin-left: 10px !important;
+    color: #1287bf;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #424242;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.btn-consultation{
+background: #de2b24;
+color: #fff !important;
+padding: 5px 0px;
+font-size: 16px !important;
+}
+.banner{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner h1{
+color: #fff;
+font-size: 50px;
+}
+.banner h4{
+color: #fff;
+font-weight: 400;
+}
+.banner button{
+    border-radius: 5px;
+    color: #fff;
+    background: #f8cd53;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 3 px; 
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+
+}
+.banner .row{
+    min-height: 80vh;
+    align-items: center;
+}
+.about{
+
+}
+.heading{
+
+}
+.heading h1{
+
+}
+.heading h5{
+    color: #4b4949;
+    font-weight: 400;
+}
+.heading span{
+    height: 5px;
+    width: 50px;
+    background: black;
+    display: block;
+    margin: auto;
+}
+.approach{
+    background-color: #f3f3f3;
+
+}
+.approach-content{
+    background: white;
+
+}
+.approach-content h4{
+    text-transform: capitalize;
+    padding-left: 25px;
+
+}
+.approach-content p{
+    margin: 0;
+    padding-left: 25px;
+
+}
+.step{
+    background-color: #de2b24;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: absolute;
+    top: 35%;
+    right: -45px;
+    transform: translate(-35%);
+}
+.step h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 5px;
+
+}
+.step h6{
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.pos{
+    position: relative;
+}
+.approach-content-left p{
+    padding: 0 50px;
+}
+.approach-content-left h4{
+    padding: 0 50px;
+    text-transform: capitalize;
+}
+.position{
+
+}
+.position .step{
+    background-color: #de2b24;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: absolute;
+    top: 35%;
+    right: -45px;
+    transform: translate(-35%);
+    top: 35%;
+    left: -2%;
+
+
+}
